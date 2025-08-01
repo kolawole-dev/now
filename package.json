@@ -1,7 +1,6 @@
 {
   "name": "mine",
   "private": true,
-  "homepage": "https://github.com/kolawole-dev/Kolawole-portfolio.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
