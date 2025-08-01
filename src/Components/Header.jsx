@@ -12,7 +12,7 @@ const Header = () => {
                 initial={{ opacity: 0, y: 200 }}
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }} className="flex flex-col items-center justify-center w-11/12 min-h-screen max-w-3xl gap-4 mx-auto text-center px-4 sm:px-8 ">
+                viewport={{ once: true }} className="flex flex-col items-center justify-center w-11/12 min-h-screen max-w-3xl gap-4 mx-auto text-center px-4 sm:px-8 " id='top'>
       <img
         src={user_im}
         alt="Profile"
