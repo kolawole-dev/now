@@ -24,7 +24,7 @@ const Header = () => {
         <img src={hand_icon} alt="hand_icon" className="w-6" />
       </h3>
       <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-[66px] font-serif">
-        Frontend Developer  based in the US.
+        Frontend Developer  based in the Nigeria.
       </h1>
       <p className="max-w-2xl mx-auto font-serif text-base sm:text-lg">
         I am a Frontend developer and a freelancer from Lagos, Nigeria with more than 3 years work experience , and will be willing to work with you
