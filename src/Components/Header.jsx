@@ -5,6 +5,7 @@ import download_icon from "../assets/download-icon.png";
 import hand_icon from "../assets/hand_icon.png";
 import myResume from '../assets/myResume.pdf'
 import { motion } from "framer-motion";
+
 React
 const Header = () => {
   return (
@@ -19,14 +20,14 @@ const Header = () => {
         className="object-cover w-28 h-28 sm:w-32 sm:h-32 rounded-full  mb-2 border-4 border-white shadow-lg md:mt-20 sm:mt-2"
       />
       <h3 className="flex items-end gap-2 mb-3 font-serif text-xl md:text-2xl">
-       <button>Hi! Im Omoyeni Kolawole{" "}</button> 
+       <button>Hi! I am Omoyeni kolawole{" "}</button> 
         <img src={hand_icon} alt="hand_icon" className="w-6" />
       </h3>
       <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-[66px] font-serif">
-        Frontend Developer  based in Lagos.
+        Frontend Developer  based in the US.
       </h1>
       <p className="max-w-2xl mx-auto font-serif text-base sm:text-lg">
-        I am a Frontend developer and a freelancer from Lagos, Nigeria with 1 year work experience , and will be willing to work with you
+        I am a Frontend developer and a freelancer from Lagos, Nigeria with more than 3 years work experience , and will be willing to work with you
       </p>
 
       <div className="flex flex-col items-center gap-3 sm:gap-4 mt-4 sm:flex-row">

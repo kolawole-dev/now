@@ -4,11 +4,13 @@ import mail_icon from '../assets/mail_icon.png'
 import mail_icon_dark from '../assets/mail_icon_dark.png'
 import logo11 from '../assets/logo11.png'
 
+
+
 React
 const Footer = () => {
   const date = new Date().getFullYear() 
   return (
-    <div className="mt-20">
+    <div className="mt-2">
     <div className="text-center">
         <img src={logo11} alt="" className="mx-auto mb-2 w-36 dark:hidden"/>
         <img src={logo11} alt="" className="hidden mx-auto mb-2 w-36 dark:block"/>
@@ -37,9 +39,9 @@ const Footer = () => {
   >
     <a
       className="text-sm font-semibold text-white badge-base__link LI-simple-link hover:text-blue-400"
-      href="https://ng.linkedin.com/in/tmothy?trk=profile-badge"
+      href="http://linkedin.com/in/kolawole-omoyeni-06797136"
     >
-      Omoyeni Kolawole
+      Omoyeni Kolawole 
     </a>
   </div>
    All rights reserved.
@@ -47,6 +49,7 @@ const Footer = () => {
 
         <ul className="flex items-center justify-center gap-6 sm:gap-10 mt-4 sm:mt-0 text-sm sm:text-base">
             <li><a target='_blank' href="https://github.com/kolawole-dev?tab=repositories">GitHub</a></li>
+            <li><a href="http://linkedin.com/in/kolawole-omoyeni-067971362">linkedin</a></li>
            
             <li><a target='_blank' href="https://x.com/timothy617712">Twitter</a></li>
             <li><a target='_blank' href="https://wa.me/+2348140759922">WhatsApp</a></li>

@@ -10,7 +10,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm('xkgzrvwy');
     const formRef = useRef(null);
 
-  // Reset form when succeeded
+  
   useEffect(() => {
     if (state.succeeded && formRef.current) {
       formRef.current.reset();
@@ -26,7 +26,7 @@ const Contact = () => {
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}  className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='contact'>
-         <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Connect <span className='underline underline-offset-4 decoration-1 under font-light'>With Us</span></h1>
+         <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Connect <span className='underline underline-offset-4 decoration-1 under font-light'>With Me</span></h1>
         <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>i would love to hear from you! if you have any questions lets work together.</p>
 
         <form className='max-w-2xl mx-auto text-gray-600 pt-8 relative' onSubmit={handleSubmit} ref={formRef}> 

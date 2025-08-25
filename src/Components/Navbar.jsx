@@ -12,6 +12,7 @@ import menu_white from "../assets/menu-white.png";
 import close_black from "../assets/close-black.png";
 import close_white from "../assets/close-white.png";
 import logo11 from '../assets/logo11.png'
+
 React
 
 const Navbar = () => {
@@ -91,12 +92,12 @@ const Navbar = () => {
           <img 
             src={logo11}
             alt="Logo"
-            className="cursor-pointer w-16 sm:w-20 md:w-24 lg:w-28 h-auto object-cover rounded-xl border-2 border-blue-200 dark:border-gray-700 shadow-md mr-2 dark:hidden"
+            className="cursor-pointer w-18 sm:w-20 md:w-24 lg:w-28 h-[30px] object-cover rounded-xl border-2 border-blue-200 dark:border-gray-700 shadow-md mr-2 dark:hidden"
           />
           <img
             src={logo11}
             alt="Logo"
-            className="hidden cursor-pointer w-16 sm:w-20 md:w-24 lg:w-28 h-auto object-cover rounded-xl border-2 border-blue-200 dark:border-gray-700 shadow-md mr-2 dark:block"
+            className="hidden cursor-pointer w-18 sm:w-20 md:w-24 lg:w-28 h-[30px] object-cover rounded-xl border-2 border-blue-200 dark:border-gray-700 shadow-md mr-2 dark:block"
           />
         </div>
 
@@ -105,7 +106,7 @@ const Navbar = () => {
           className="items-center hidden gap-3 sm:gap-6 px-4 sm:px-8 md:px-12 py-2 sm:py-3 font-serif bg-white bg-opacity-50 rounded-full shadow-sm md:flex lg:gap-8 dark:border dark:border-white/50 dark:bg-transparent dark:text-white"
         >
           <li className="dark:text-white">
-            <a href="#top" className="dark:text-white">Home</a>
+            <a href="" className="dark:text-white">Home</a>
           </li>
           <li className="dark:text-white">
             <a href="#about" className="dark:text-white">About me</a>

@@ -16,7 +16,7 @@ const Services = () => {
         <h4 className="mb-2 text-lg text-center font-Ovo">What i offer</h4>
         <h2 className="text-3xl sm:text-4xl md:text-5xl text-center font-Ovo">My services</h2>
         <p className="max-w-2xl mx-auto mt-4 sm:mt-5 mb-8 sm:mb-12 text-center font-Ovo text-base sm:text-lg">
-          I am a Frontend Developer | Web developer from Lagos, Nigeria .
+          I am a Frontend Developer | Web developer from Califonia, USA .
         </p>
 
         <div className="grid justify-center grid-cols-1 gap-5 sm:gap-6 my-8 sm:my-10 md:grid-cols-2">

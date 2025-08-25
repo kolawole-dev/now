@@ -15,6 +15,7 @@ import Adobe from "../assets/Adobe.png";
 import react from "../assets/react.png"
 import { motion } from "framer-motion";
 
+
 React
 
 const About = () => {
@@ -40,7 +41,7 @@ const About = () => {
           </div>
           <div className="flex-1">
             <p className="max-w-2xl mb-10 font-serif text-base sm:text-lg">
-               Hi! I am a frontend developer with experience more than a year . I have studied Frontend Development which provided me with some outstanding and technical skills. I consider myself equipped with most of web development skills, but i know i still need to learn a lot more. I am highly trainable and can easily learn tasks.if i dont have experience with software or skill, i am doing research to study it . I believe in hard work and honesty, i can make your job in time with high quality
+               Hi! I am a frontend developer with experience of more than 3 years . I have studied Frontend Development which provided me with some outstanding and technical skills. I consider myself equipped with most of web development skills, but i know i still need to learn a lot more. I am highly trainable and can easily learn tasks.if i dont have experience with software or skill, i am doing research to study it . I believe in hard work and honesty, i can make your job in time with high quality
             </p>
 
             <ul className="grid max-w-2xl grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
